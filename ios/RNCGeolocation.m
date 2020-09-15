@@ -358,6 +358,7 @@ RCT_EXPORT_METHOD(getCurrentPosition:(RNCGeolocationOptions)options
                              @"altitudeAccuracy": @(location.verticalAccuracy),
                              @"heading": @(location.course),
                              @"speed": @(location.speed),
+                             @"floor":@(location.floor.level)
                              },
                          @"timestamp": @([location.timestamp timeIntervalSince1970] * 1000) // in ms
                          };
