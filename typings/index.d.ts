@@ -29,6 +29,7 @@ export type GeolocationResponse = {
       altitudeAccuracy: number | null;
       heading: number | null;
       speed: number | null;
+      floor: number | null;
   };
   timestamp: number;
 };
