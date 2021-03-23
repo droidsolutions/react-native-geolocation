@@ -28,14 +28,6 @@
     "validate:eslint": "eslint 'js/**/*.js' 'example/**/*.js'",
     "validate:flow": "flow check",
     "test:jest": "jest js/",
-    "build:e2e:android:debug": "detox build -c android.emu.debug",
-    "build:e2e:android:release": "detox build -c android.emu.release",
-    "test:e2e:android:debug": "detox test -c android.emu.debug",
-    "test:e2e:android:release": "detox test -c android.emu.release",
-    "build:e2e:ios:debug": "detox build -c ios.sim.debug",
-    "build:e2e:ios:release": "detox build -c ios.sim.release",
-    "test:e2e:ios:debug": "detox test -c ios.sim.debug",
-    "test:e2e:ios:release": "detox test -c ios.sim.release",
     "prepare": "bob build"
   },
   "keywords": [
@@ -57,7 +49,6 @@
     "babel-eslint": "^10.0.2",
     "babel-jest": "^24.9.0",
     "babel-plugin-module-resolver": "^3.2.0",
-    "detox": "^14.0.2",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "3.0.1",
